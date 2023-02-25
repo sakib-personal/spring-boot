@@ -33,7 +33,7 @@ public class UserMapperTest extends SpringBootObjectMapperApplicationTests {
 	}
 
 	@Test
-	@Order(1)
+	@Order(2)
 	public void userDtoToUser() {
 		UserDto userDto = UserDto.builder()
 				.name("Jack")
