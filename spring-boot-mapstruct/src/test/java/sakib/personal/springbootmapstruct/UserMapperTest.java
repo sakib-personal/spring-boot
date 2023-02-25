@@ -28,7 +28,7 @@ public class UserMapperTest extends SpringBootMapstructApplicationTests {
 	}
 
 	@Test
-	@Order(1)
+	@Order(2)
 	public void userDtoToUser() {
 		UserDto userDto = UserDto.builder()
 				.name("Jack")
